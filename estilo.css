@@ -1,0 +1,193 @@
+/*PÁGINA INICIAL*/
+
+body{
+    font-family: Tahoma;
+    background-color: #eec170;
+    min-width: 1000px;
+    height: fit-content;
+}
+
+a:link{
+    color: #3e1929;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #3e1929;
+}
+
+a:hover{
+    color: #c6ddf0;
+}
+
+h1{
+    color: #3e1929;
+    font-weight: bold;
+    font-size: 26pt;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95vh;
+}
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vh;
+}
+
+.item_menu{
+    font-family: Tahoma;
+    font-size: 24pt;
+}
+
+#img_inicial{
+    display: flex;
+    align-items: center;
+}
+
+#img_inicial img{
+    border-radius: 25%;
+    min-height: 200px;
+    max-height: 550px;
+    min-width: 300px;
+    max-width: 500px;
+    border: double 12px;
+    border-color: #772f1a;
+}
+
+
+/*AUTOR*/
+
+h1.nome_autor{
+    text-align: center;
+    margin-top: 15vh;
+}
+
+#grid{
+    display: flex;
+    margin-top: 12vh;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#coluna{
+    display: block;
+    width: 55vh;
+}
+
+#linha{
+    margin-bottom: 5vh;
+    border: double 4px #772f1a;
+    border-radius: 25%;
+    padding: 2vh 4vh 2vh 4vh;
+}
+
+p.texto{
+    font-family: Tahoma;
+    font-size: 13pt;
+    text-align: justify;
+    color: #3e1929;
+}
+
+.botao_autor{
+    justify-content: center;
+}
+
+
+/*POEMAS*/
+
+#topo{
+    display: flex;
+    justify-content: space-evenly;    margin: 15vh;
+}
+
+#coletanea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#poema img{
+    width: 900px;
+    border: double 3px #772f1a;
+    margin-bottom: 7vh;
+    border-radius: 5%;
+}
+
+#poema h1{
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    text-align: center;
+}
+
+#botao{
+    display: flex;
+    font-family: Tahoma;
+    align-items: center;
+    font-size: 18pt;
+    margin-bottom: 1vh;
+}
+
+#botao img{
+    height: 4vh;
+    margin-right: 0.5vh;
+}
+
+.img_botao{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+}
+
+
+/*DESENHOS*/
+
+#galeria{
+    margin-top: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#desenho img{
+    max-height: 60vh;
+    border: double 4px #772f1a;
+    border-radius: 25%;
+}
+
+.desenho_rodape{
+    margin-bottom: 5vh;
+}
+
+.voltar_desenhos{
+    margin-top: 3vh;
+}
+
+
+/*FOTOGRAFIAS*/
+
+.coluna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img.foto{
+    width: 80vh;
+    margin: 2vh 2vh 2vh 2vh;
+    border: double 5px #772f1a;
+    border-radius: 15%;
+}
