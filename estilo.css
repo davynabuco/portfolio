@@ -172,7 +172,10 @@ p.texto{
 }
 
 .voltar_desenhos{
+    display: block;
     margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
